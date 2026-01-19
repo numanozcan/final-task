@@ -1,0 +1,5 @@
+Model,Best_Params,Accuracy,Precision,Recall,F1,ROC_AUC
+KNN,"{'knn__n_neighbors': 25, 'knn__p': 1, 'knn__weights': 'uniform'}",0.8889,0.8968,0.9048,0.8885,1.0
+SVM-Linear,{'svm__C': 0.1},0.9444,0.9444,0.9524,0.9441,1.0
+SVM-RBF,"{'svm__C': 1, 'svm__gamma': 'scale'}",0.9444,0.9583,0.9333,0.9407,1.0
+MLP,"{'mlp__activation': 'relu', 'mlp__alpha': 1e-05, 'mlp__early_stopping': True, 'mlp__hidden_layer_sizes': (50, 50), 'mlp__learning_rate_init': 0.01}",0.8333,0.85,0.8302,0.8364,0.9776
